@@ -25,7 +25,7 @@ const Stats = ({ player }) => {
         </div>
         <ul>
           <li className="player-rank"> {rank ? rank : '-'} </li>
-          <li className="player-age"> {age ? age : '-'} </li>
+          <li className="player-age"> {age ? `${age} years old` : '-'} </li>
           <li className="player-country"> {country.code ? countryMap[country.code] : '-'} </li>          
           <li className="player-points"> {points ? points : '-'} </li>
           <li className="player-height"> {height ? formatHeight(height) : '-'} </li>
