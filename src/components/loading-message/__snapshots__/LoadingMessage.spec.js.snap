@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Given a LoadingMessage Component When rendered should display the appriopriate message 1`] = `
+<span>
+   We are making sure we get you the right information. Bear with us ;) 
+</span>
+`;

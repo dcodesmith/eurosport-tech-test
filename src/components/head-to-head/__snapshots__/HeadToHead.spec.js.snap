@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Given a HeadToHead Component When rendered and players have been fetched should not render the Loading Message component 1`] = `null`;
+
+exports[`Given a HeadToHead Component When rendered and players have been fetched should render a Label component 1`] = `<Labels />`;
+
+exports[`Given a HeadToHead Component When rendered and players have not been fetched should render the Loading Message component 1`] = `<LoadingMessage />`;

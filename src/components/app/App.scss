@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+}
+
+.App {
+  margin: 20px auto;
+  width: 100%;
+}
+
+@media (min-width: 576px) {
+  .App {
+    width: 480px;
+  }
+}
+
+@media (min-width: 768px) {
+  .App {
+    width: 600px;
+  }
+}
+
+@media (min-width: 992px) {
+  .App {
+    width: 720px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .App {
+    width: 900px;
+  }
+}
+
+@import '../head-to-head/index';
+@import '../stats/index';
+@import '../labels/index';
+

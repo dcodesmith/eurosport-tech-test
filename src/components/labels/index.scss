@@ -1,0 +1,22 @@
+.column {
+  &:nth-child(2) .player {
+    margin-top: 203px;
+    font-weight: 600;
+  }
+
+  &:first-of-type .player-name h3 {
+    text-align: right;
+  }
+}
+
+@media all and (min-width: 576px) {
+  .grid {
+    .player {
+      display: inline-flex;
+    }
+
+    .column:nth-child(2) .player {
+      margin-top: 50px;
+    }
+  }
+}

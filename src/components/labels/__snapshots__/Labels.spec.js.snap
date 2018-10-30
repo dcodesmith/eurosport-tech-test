@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Given a Labels Component When rendered should display the statistics labels 1`] = `
+<div
+  className="column"
+>
+  <div
+    className="player"
+  >
+    <ul>
+      <li>
+        Rank
+      </li>
+      <li>
+        Age
+      </li>
+      <li>
+        Country
+      </li>
+      <li>
+        Points
+      </li>
+      <li>
+        Height
+      </li>
+      <li>
+        Weight
+      </li>
+      <li>
+        Wins
+      </li>
+      <li>
+        Losses
+      </li>
+    </ul>
+  </div>
+</div>
+`;
